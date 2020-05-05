@@ -55,7 +55,7 @@ CREATE TABLE orders (
   ship_name       VARCHAR(50) ,
   ship_address1   VARCHAR(150) ,
   ship_address2   VARCHAR(150) ,
-  ship_city       VARCHAR(50) ,
+  ship_city       VARCHAR(50) CHARACTER SET utf8 COLLATE utf8_unicode_ci,
   ship_state      VARCHAR(50) ,
   ship_postal_code VARCHAR(50) ,
   ship_country    VARCHAR(50) ,
